@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      /* Basic Options */
+      "target": "ESNEXT" /* target用于指定编译后js文件里的语法应该遵循哪个JavaScript的版本的版本目标: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */,
+      "module": "es2015" /* 用来指定编译后的js要使用的模块标准: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */,
+      "rootDir": "./",                       /* 用来指定编译文件的根目录，编译器会在根目录查找入口文件，如果编译器发现以rootDir的值作为根目录查找入口文件并不会把所有文件加载进去的话会报错，但是不会停止编译 */
+      "composite": true,                     /* 是否编译构建引用项目  */
+      "noImplicitAny":false,//设成false
+    }
+  }
