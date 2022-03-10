@@ -30,8 +30,4 @@ function heapify(arr, index, size) {
         heapify(arr, largest, size)
     }
 }
-export const a = 'name'
-export const b = 2
-export default {heapSort}
-// heapSort([2, 3, 4, 5, 2, 4, 5, 3, 7, 78])
-
+heapSort([2, 3, 4, 5, 2, 4, 5, 3, 7, 78])

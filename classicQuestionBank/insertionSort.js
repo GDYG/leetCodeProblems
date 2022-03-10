@@ -25,12 +25,10 @@ function insertionSort(arr) {
     let preIndex = i - 1;
 
     while (arr[preIndex] > temp) {
-        console.log(arr[preIndex + 1], arr[preIndex], preIndex)
         arr[preIndex + 1] = arr[preIndex];
-      preIndex -= 1;
+        preIndex -= 1;
     }
-    arr[preIndex + 1] = temp;
-    console.log(temp)
+    arr[preIndex + 1] = temp
   }
 
   return arr;
