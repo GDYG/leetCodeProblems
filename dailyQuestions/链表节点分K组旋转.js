@@ -13,7 +13,7 @@ function reverseKGroup( head ,  k ) {
         }
         let lastNode = findLast(n2)
         lastNode.next = reverseKGroup(head, k)
-        return lastNode
+        return n2
     }
     
 }
