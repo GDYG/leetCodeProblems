@@ -4,7 +4,7 @@ function EntryNodeOfLoop(pHead)
     while (pHead) {
         if(pHead == null) return null
         if (map.has(pHead)) { 
-            return pHead.val
+            return pHead
         }
         map.add(pHead)
         pHead = pHead.next
